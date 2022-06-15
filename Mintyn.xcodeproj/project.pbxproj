@@ -99,12 +99,11 @@
 		CAF2734F285A934300E20E4B /* Mintyn */ = {
 			isa = PBXGroup;
 			children = (
-				CAF27350285A934300E20E4B /* AppDelegate.swift */,
-				CAF27352285A934300E20E4B /* SceneDelegate.swift */,
-				CAF27354285A934300E20E4B /* ViewController.swift */,
-				CAF27356285A934300E20E4B /* Main.storyboard */,
-				CAF27359285A934500E20E4B /* Assets.xcassets */,
-				CAF2735B285A934500E20E4B /* LaunchScreen.storyboard */,
+				CAF27384285A95DF00E20E4B /* Resources */,
+				CAF27383285A959600E20E4B /* Delegates */,
+				CAF27382285A957900E20E4B /* Controllers */,
+				CAF27381285A957200E20E4B /* Views */,
+				CAF27380285A956700E20E4B /* Models */,
 				CAF2735E285A934500E20E4B /* Info.plist */,
 			);
 			path = Mintyn;
@@ -125,6 +124,55 @@
 				CAF27373285A934500E20E4B /* MintynUITestsLaunchTests.swift */,
 			);
 			path = MintynUITests;
+			sourceTree = "<group>";
+		};
+		CAF27380285A956700E20E4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAF27381285A957200E20E4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAF27385285A962100E20E4B /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAF27382285A957900E20E4B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAF27354285A934300E20E4B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CAF27383285A959600E20E4B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				CAF27350285A934300E20E4B /* AppDelegate.swift */,
+				CAF27352285A934300E20E4B /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		CAF27384285A95DF00E20E4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAF27359285A934500E20E4B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CAF27385285A962100E20E4B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CAF27356285A934300E20E4B /* Main.storyboard */,
+				CAF2735B285A934500E20E4B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
