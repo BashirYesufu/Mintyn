@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
     }
     
-    func goHome(_ vc: UIViewController, animated: Bool = true) {
+    func goTo(_ vc: UIViewController, animated: Bool = true) {
         guard let uiWindow = self.window else { return }
         uiWindow.rootViewController = vc
         UIView.transition(with: uiWindow, duration: 1.5, options: [.layoutSubviews], animations: nil, completion: nil)

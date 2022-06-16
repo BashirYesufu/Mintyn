@@ -53,7 +53,7 @@ class LoginViewController: UIViewController {
     @IBAction func loginTapped(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let mintynTabBarController = storyboard.instantiateViewController(identifier: "MintynTabBarController")
-        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.goHome(mintynTabBarController)
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.goTo(mintynTabBarController)
     }
     
 }

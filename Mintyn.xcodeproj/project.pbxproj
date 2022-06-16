@@ -20,6 +20,13 @@
 		CAF27374285A934500E20E4B /* MintynUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27373285A934500E20E4B /* MintynUITestsLaunchTests.swift */; };
 		CAF27388285A9E6200E20E4B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27387285A9E6200E20E4B /* UIView+Extension.swift */; };
 		CAF2738C285B5A3200E20E4B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2738B285B5A3100E20E4B /* HomeViewController.swift */; };
+		CAF2738E285B861F00E20E4B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2738D285B861F00E20E4B /* SettingsViewController.swift */; };
+		CAF27390285B868B00E20E4B /* SettingsViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2738F285B868A00E20E4B /* SettingsViewItem.swift */; };
+		CAF27393285B892500E20E4B /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27392285B892500E20E4B /* SettingsTableViewCell.swift */; };
+		CAF27395285B941800E20E4B /* LegalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27394285B941700E20E4B /* LegalViewController.swift */; };
+		CAF27397285B943100E20E4B /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27396285B943100E20E4B /* SystemViewController.swift */; };
+		CAF27399285B98D600E20E4B /* AppearanceMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27398285B98D600E20E4B /* AppearanceMode.swift */; };
+		CAF2739D285B9CE200E20E4B /* SystemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2739C285B9CE200E20E4B /* SystemTableViewCell.swift */; };
 		EC2D94D72C3315C1C08B67B9 /* Pods_Mintyn_MintynUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7818BD6A6B4E19E8DE3A66C /* Pods_Mintyn_MintynUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +72,13 @@
 		CAF27373285A934500E20E4B /* MintynUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CAF27387285A9E6200E20E4B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		CAF2738B285B5A3100E20E4B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CAF2738D285B861F00E20E4B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CAF2738F285B868A00E20E4B /* SettingsViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewItem.swift; sourceTree = "<group>"; };
+		CAF27392285B892500E20E4B /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		CAF27394285B941700E20E4B /* LegalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalViewController.swift; sourceTree = "<group>"; };
+		CAF27396285B943100E20E4B /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
+		CAF27398285B98D600E20E4B /* AppearanceMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceMode.swift; sourceTree = "<group>"; };
+		CAF2739C285B9CE200E20E4B /* SystemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				CAF27389285B4D4D00E20E4B /* Utilities */,
-				CAF27386285A9E3D00E20E4B /* Extension */,
 				CAF27384285A95DF00E20E4B /* Resources */,
 				CAF27383285A959600E20E4B /* Delegates */,
 				CAF27382285A957900E20E4B /* Controllers */,
@@ -175,6 +188,8 @@
 		CAF27380285A956700E20E4B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CAF2738F285B868A00E20E4B /* SettingsViewItem.swift */,
+				CAF27398285B98D600E20E4B /* AppearanceMode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +197,7 @@
 		CAF27381285A957200E20E4B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CAF27391285B88F900E20E4B /* Cells */,
 				CAF27385285A962100E20E4B /* Storyboards */,
 			);
 			path = Views;
@@ -192,6 +208,9 @@
 			children = (
 				CAF27354285A934300E20E4B /* LoginViewController.swift */,
 				CAF2738B285B5A3100E20E4B /* HomeViewController.swift */,
+				CAF2738D285B861F00E20E4B /* SettingsViewController.swift */,
+				CAF27394285B941700E20E4B /* LegalViewController.swift */,
+				CAF27396285B943100E20E4B /* SystemViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -228,11 +247,13 @@
 				CAF27387285A9E6200E20E4B /* UIView+Extension.swift */,
 			);
 			name = Extension;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CAF27389285B4D4D00E20E4B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CAF27386285A9E3D00E20E4B /* Extension */,
 				CAF2738A285B4D6C00E20E4B /* Services */,
 			);
 			path = Utilities;
@@ -243,6 +264,15 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CAF27391285B88F900E20E4B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CAF27392285B892500E20E4B /* SettingsTableViewCell.swift */,
+				CAF2739C285B9CE200E20E4B /* SystemTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,11 +514,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF2739D285B9CE200E20E4B /* SystemTableViewCell.swift in Sources */,
 				CAF2738C285B5A3200E20E4B /* HomeViewController.swift in Sources */,
+				CAF27395285B941800E20E4B /* LegalViewController.swift in Sources */,
+				CAF27390285B868B00E20E4B /* SettingsViewItem.swift in Sources */,
+				CAF27393285B892500E20E4B /* SettingsTableViewCell.swift in Sources */,
 				CAF27355285A934300E20E4B /* LoginViewController.swift in Sources */,
 				CAF27351285A934300E20E4B /* AppDelegate.swift in Sources */,
+				CAF27399285B98D600E20E4B /* AppearanceMode.swift in Sources */,
 				CAF27388285A9E6200E20E4B /* UIView+Extension.swift in Sources */,
+				CAF27397285B943100E20E4B /* SystemViewController.swift in Sources */,
 				CAF27353285A934300E20E4B /* SceneDelegate.swift in Sources */,
+				CAF2738E285B861F00E20E4B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
