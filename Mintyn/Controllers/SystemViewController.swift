@@ -40,6 +40,10 @@ class SystemViewController: UIViewController, UITableViewDataSource, UITableView
         return modes.count
     }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Appearance"
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // UIApplication.shared.keyWindow
         let window = UIApplication.shared.connectedScenes
@@ -54,15 +58,11 @@ class SystemViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SystemTableViewCell", for: indexPath) as! SystemTableViewCell
-        let item = modes[indexPath.row]
-        cell.parseTitle(title: item.rawValue)
+        let selectedMode = modes[indexPath.row]
+        cell.parseTitle(title: selectedMode.rawValue)
         cell.selectionStyle = .none
-        cell.accessoryType = item == currentMode ? .checkmark : .none
+        cell.accessoryType = selectedMode == currentMode ? .checkmark : .none
         return cell
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Appearance"
-    }
-
 }

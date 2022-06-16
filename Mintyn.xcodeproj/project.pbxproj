@@ -10,6 +10,7 @@
 		280C5020C8582FDEC6C49D79 /* Pods_MintynTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E125FBF5A740F627D302C7 /* Pods_MintynTests.framework */; };
 		8560064B88399830696F424B /* Pods_Mintyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D591B7FAF2D56101F2F28DB /* Pods_Mintyn.framework */; };
 		CA7F9C15285BA52900F57550 /* LegalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F9C14285BA52900F57550 /* LegalViewModel.swift */; };
+		CA7F9C17285BA77100F57550 /* LegalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F9C16285BA77100F57550 /* LegalTableViewCell.swift */; };
 		CAF27351285A934300E20E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27350285A934300E20E4B /* AppDelegate.swift */; };
 		CAF27353285A934300E20E4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27352285A934300E20E4B /* SceneDelegate.swift */; };
 		CAF27355285A934300E20E4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27354285A934300E20E4B /* LoginViewController.swift */; };
@@ -28,6 +29,7 @@
 		CAF27397285B943100E20E4B /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27396285B943100E20E4B /* SystemViewController.swift */; };
 		CAF27399285B98D600E20E4B /* AppearanceMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27398285B98D600E20E4B /* AppearanceMode.swift */; };
 		CAF2739D285B9CE200E20E4B /* SystemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2739C285B9CE200E20E4B /* SystemTableViewCell.swift */; };
+		CAF9F24A285BBBFF00AB4874 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F249285BBBFF00AB4874 /* WebViewController.swift */; };
 		EC2D94D72C3315C1C08B67B9 /* Pods_Mintyn_MintynUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7818BD6A6B4E19E8DE3A66C /* Pods_Mintyn_MintynUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,7 @@
 		BBEA8D90A4769B2EBF51EB82 /* Pods-MintynTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynTests.release.xcconfig"; path = "Target Support Files/Pods-MintynTests/Pods-MintynTests.release.xcconfig"; sourceTree = "<group>"; };
 		C7818BD6A6B4E19E8DE3A66C /* Pods_Mintyn_MintynUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mintyn_MintynUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7F9C14285BA52900F57550 /* LegalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalViewModel.swift; sourceTree = "<group>"; };
+		CA7F9C16285BA77100F57550 /* LegalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalTableViewCell.swift; sourceTree = "<group>"; };
 		CAF2734D285A934300E20E4B /* Mintyn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mintyn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF27350285A934300E20E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF27352285A934300E20E4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		CAF27396285B943100E20E4B /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
 		CAF27398285B98D600E20E4B /* AppearanceMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceMode.swift; sourceTree = "<group>"; };
 		CAF2739C285B9CE200E20E4B /* SystemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTableViewCell.swift; sourceTree = "<group>"; };
+		CAF9F249285BBBFF00AB4874 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,7 @@
 				CAF2738D285B861F00E20E4B /* SettingsViewController.swift */,
 				CAF27394285B941700E20E4B /* LegalViewController.swift */,
 				CAF27396285B943100E20E4B /* SystemViewController.swift */,
+				CAF9F249285BBBFF00AB4874 /* WebViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			children = (
 				CAF27392285B892500E20E4B /* SettingsTableViewCell.swift */,
 				CAF2739C285B9CE200E20E4B /* SystemTableViewCell.swift */,
+				CA7F9C16285BA77100F57550 /* LegalTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -522,6 +528,7 @@
 				CAF27395285B941800E20E4B /* LegalViewController.swift in Sources */,
 				CAF27390285B868B00E20E4B /* SettingsViewItem.swift in Sources */,
 				CAF27393285B892500E20E4B /* SettingsTableViewCell.swift in Sources */,
+				CA7F9C17285BA77100F57550 /* LegalTableViewCell.swift in Sources */,
 				CAF27355285A934300E20E4B /* LoginViewController.swift in Sources */,
 				CAF27351285A934300E20E4B /* AppDelegate.swift in Sources */,
 				CAF27399285B98D600E20E4B /* AppearanceMode.swift in Sources */,
@@ -529,6 +536,7 @@
 				CAF27397285B943100E20E4B /* SystemViewController.swift in Sources */,
 				CAF27353285A934300E20E4B /* SceneDelegate.swift in Sources */,
 				CAF2738E285B861F00E20E4B /* SettingsViewController.swift in Sources */,
+				CAF9F24A285BBBFF00AB4874 /* WebViewController.swift in Sources */,
 				CA7F9C15285BA52900F57550 /* LegalViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

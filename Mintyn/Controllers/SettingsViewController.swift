@@ -29,7 +29,6 @@ class SettingsViewController: UIViewController, UITableViewDelegate , UITableVie
         settingsTableView.delegate = self
         settingsTableView.dataSource = self
         settingsTableView.rowHeight = 50
-        settingsTableView.separatorStyle = .none
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
