@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		280C5020C8582FDEC6C49D79 /* Pods_MintynTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E125FBF5A740F627D302C7 /* Pods_MintynTests.framework */; };
 		8560064B88399830696F424B /* Pods_Mintyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D591B7FAF2D56101F2F28DB /* Pods_Mintyn.framework */; };
+		CA7F9C15285BA52900F57550 /* LegalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F9C14285BA52900F57550 /* LegalViewModel.swift */; };
 		CAF27351285A934300E20E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27350285A934300E20E4B /* AppDelegate.swift */; };
 		CAF27353285A934300E20E4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27352285A934300E20E4B /* SceneDelegate.swift */; };
 		CAF27355285A934300E20E4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27354285A934300E20E4B /* LoginViewController.swift */; };
@@ -57,6 +58,7 @@
 		B5E125FBF5A740F627D302C7 /* Pods_MintynTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintynTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEA8D90A4769B2EBF51EB82 /* Pods-MintynTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynTests.release.xcconfig"; path = "Target Support Files/Pods-MintynTests/Pods-MintynTests.release.xcconfig"; sourceTree = "<group>"; };
 		C7818BD6A6B4E19E8DE3A66C /* Pods_Mintyn_MintynUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mintyn_MintynUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F9C14285BA52900F57550 /* LegalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalViewModel.swift; sourceTree = "<group>"; };
 		CAF2734D285A934300E20E4B /* Mintyn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mintyn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF27350285A934300E20E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF27352285A934300E20E4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			children = (
 				CAF2738F285B868A00E20E4B /* SettingsViewItem.swift */,
 				CAF27398285B98D600E20E4B /* AppearanceMode.swift */,
+				CA7F9C14285BA52900F57550 /* LegalViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -526,6 +529,7 @@
 				CAF27397285B943100E20E4B /* SystemViewController.swift in Sources */,
 				CAF27353285A934300E20E4B /* SceneDelegate.swift in Sources */,
 				CAF2738E285B861F00E20E4B /* SettingsViewController.swift in Sources */,
+				CA7F9C15285BA52900F57550 /* LegalViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
