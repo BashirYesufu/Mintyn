@@ -19,6 +19,7 @@
 		CAF27372285A934500E20E4B /* MintynUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27371285A934500E20E4B /* MintynUITests.swift */; };
 		CAF27374285A934500E20E4B /* MintynUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27373285A934500E20E4B /* MintynUITestsLaunchTests.swift */; };
 		CAF27388285A9E6200E20E4B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27387285A9E6200E20E4B /* UIView+Extension.swift */; };
+		CAF2738C285B5A3200E20E4B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2738B285B5A3100E20E4B /* HomeViewController.swift */; };
 		EC2D94D72C3315C1C08B67B9 /* Pods_Mintyn_MintynUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7818BD6A6B4E19E8DE3A66C /* Pods_Mintyn_MintynUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		CAF27371285A934500E20E4B /* MintynUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynUITests.swift; sourceTree = "<group>"; };
 		CAF27373285A934500E20E4B /* MintynUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CAF27387285A9E6200E20E4B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CAF2738B285B5A3100E20E4B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,6 @@
 				B2EC9D2BBE88B99CAB86BCF4 /* Pods-MintynTests.debug.xcconfig */,
 				BBEA8D90A4769B2EBF51EB82 /* Pods-MintynTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,6 +143,7 @@
 		CAF2734F285A934300E20E4B /* Mintyn */ = {
 			isa = PBXGroup;
 			children = (
+				CAF27389285B4D4D00E20E4B /* Utilities */,
 				CAF27386285A9E3D00E20E4B /* Extension */,
 				CAF27384285A95DF00E20E4B /* Resources */,
 				CAF27383285A959600E20E4B /* Delegates */,
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				CAF27354285A934300E20E4B /* LoginViewController.swift */,
+				CAF2738B285B5A3100E20E4B /* HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,6 +228,21 @@
 				CAF27387285A9E6200E20E4B /* UIView+Extension.swift */,
 			);
 			name = Extension;
+			sourceTree = "<group>";
+		};
+		CAF27389285B4D4D00E20E4B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CAF2738A285B4D6C00E20E4B /* Services */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CAF2738A285B4D6C00E20E4B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF2738C285B5A3200E20E4B /* HomeViewController.swift in Sources */,
 				CAF27355285A934300E20E4B /* LoginViewController.swift in Sources */,
 				CAF27351285A934300E20E4B /* AppDelegate.swift in Sources */,
 				CAF27388285A9E6200E20E4B /* UIView+Extension.swift in Sources */,

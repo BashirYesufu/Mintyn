@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -272,8 +273,8 @@ Support</string>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ctf-Mv-jfK">
                                                         <rect key="frame" x="0.0" y="36" width="374" height="34"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NKA-OD-NUL">
-                                                                <rect key="frame" x="340" y="5.5" width="34" height="22.5"/>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye.slash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NKA-OD-NUL">
+                                                                <rect key="frame" x="340" y="5" width="34" height="23.5"/>
                                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="26" id="8c6-Vc-5dS"/>
@@ -321,9 +322,9 @@ Support</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="L2U-qO-Zkn">
                                                         <rect key="frame" x="0.0" y="0.0" width="137.5" height="24"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="m9o-s3-C8d">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="m9o-s3-C8d">
                                                                 <rect key="frame" x="0.0" y="1" width="24" height="21.5"/>
-                                                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="24" id="Ktn-D3-Dgv"/>
                                                                     <constraint firstAttribute="height" constant="24" id="vY0-Fg-oqE"/>
@@ -361,6 +362,9 @@ Support</string>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IIT-Zk-kz4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -419,7 +423,10 @@ Support</string>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="checkerView" destination="m9o-s3-C8d" id="std-uX-DNn"/>
                         <outlet property="numberTF" destination="Itm-dx-Rnv" id="IYN-go-tES"/>
+                        <outlet property="passwordTF" destination="sbd-cT-4Du" id="NsU-x8-OLa"/>
+                        <outlet property="passwordVisibiltyView" destination="NKA-OD-NUL" id="MoX-cw-Ac2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -476,12 +483,124 @@ Insurance</string>
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
         </scene>
+        <!--Finances-->
+        <scene sceneID="Iq1-eg-VBb">
+            <objects>
+                <viewController id="GB2-rH-LQE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yad-Tt-8ac">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="onP-bl-aOw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Finances" image="building.columns.fill" catalog="system" id="Bte-fU-dLs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6it-J4-A2I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1999" y="-755"/>
+        </scene>
+        <!--Cards-->
+        <scene sceneID="16D-n7-kha">
+            <objects>
+                <viewController id="dDF-RL-UtF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R2C-Zn-wxA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Gmd-8N-xfv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cards" image="creditcard.fill" catalog="system" id="rfF-LA-A9G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QIi-fc-Hrv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1999" y="117"/>
+        </scene>
+        <!--Support-->
+        <scene sceneID="i0i-St-aSn">
+            <objects>
+                <viewController id="GEB-4B-KeH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5aE-zg-e5M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="yfV-Nj-R29"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Support" image="person.fill" catalog="system" id="XMI-E3-XHV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PU5-Bt-az8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1999" y="832"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="Vdk-ql-Enz">
+            <objects>
+                <viewController id="Yy5-XL-Xnd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2pk-dt-Yfp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rxM-Vj-5aW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="rD4-fa-hdw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eJl-5E-miQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1999" y="1600"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="gEp-VZ-ZRI">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="CKi-x7-xAP" customClass="HomeViewController" customModule="Mintyn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="94H-R6-eUh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mNj-g0-il4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="qCx-H5-qI5">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ImC-Bn-kKq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1999" y="-1552"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="YV1-MY-4Qu">
+            <objects>
+                <tabBarController storyboardIdentifier="MintynTabBarController" id="7aw-fj-EsG" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="house" catalog="system" id="s5n-Dt-cjh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CKi-x7-xAP" kind="relationship" relationship="viewControllers" id="zk2-Tv-yNQ"/>
+                        <segue destination="GB2-rH-LQE" kind="relationship" relationship="viewControllers" id="FWH-NH-CVs"/>
+                        <segue destination="dDF-RL-UtF" kind="relationship" relationship="viewControllers" id="sH1-VV-t0K"/>
+                        <segue destination="GEB-4B-KeH" kind="relationship" relationship="viewControllers" id="tvM-0m-RQe"/>
+                        <segue destination="Yy5-XL-Xnd" kind="relationship" relationship="viewControllers" id="6Yx-1T-0O0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NZH-le-bk1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="117"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="building.columns.fill" catalog="system" width="128" height="113"/>
+        <image name="checkmark.square" catalog="system" width="128" height="114"/>
+        <image name="creditcard.fill" catalog="system" width="128" height="88"/>
         <image name="doc.on.doc" catalog="system" width="116" height="128"/>
-        <image name="eye" catalog="system" width="128" height="81"/>
+        <image name="eye.slash" catalog="system" width="128" height="86"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="shield.checkerboard" catalog="system" width="128" height="121"/>
-        <image name="square" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
