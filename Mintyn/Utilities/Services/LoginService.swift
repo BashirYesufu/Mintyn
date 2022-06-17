@@ -22,7 +22,7 @@ struct LoginService {
             
             // Updates the UI on the main thread
             DispatchQueue.main.async {
-                if (number.count == 11 && number.contains("+234")) && password.count >= 6 {
+                if (number.count == 13 && number.contains("234")) && password.count >= 6 {
                     completion(true)
                 } else {
                     completion(false)

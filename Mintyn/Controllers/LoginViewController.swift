@@ -7,6 +7,7 @@
 
 import UIKit
 import NKVPhonePicker
+import ProgressHUD
 
 class LoginViewController: UIViewController {
 
@@ -52,26 +53,28 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginTapped(_ sender: UIButton) {
         guard let number = numberTF.text, let password = passwordTF.text else { return }
+        print(password.count)
+        print(number.count)
         if TextFieldValidator.validateNumber(number) != nil {
-            //show invalid number error
+            self.present(AlertHandler.shared.showErrorAlert(message: TextFieldError.invalidNumber.description), animated: true)
             return
         }
         
         if TextFieldValidator.validatePassword(password) != nil {
-            //show invalid password error
+            self.present(AlertHandler.shared.showErrorAlert(message: TextFieldError.invalidPassword.description), animated: true)
             return
         }
         login(number, password)
     }
     
     private func login(_ number: String, _ password: String){
-        // Show Loader
+        ProgressHUD.show()
         LoginService.shared.loginUser(number: number, password: password) { [weak self] loggedIn in
             if loggedIn {
                 self?.goHome()
-                // Dismis loader
+                ProgressHUD.dismiss()
             } else {
-                // Show error
+                ProgressHUD.showError()
             }
         }
     }

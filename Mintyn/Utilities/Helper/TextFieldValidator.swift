@@ -10,7 +10,7 @@ import Foundation
 struct TextFieldValidator {
     
     static func validateNumber(_ number: String) -> Error? {
-        if number.contains("+234") && number.count == 11 {
+        if number.contains("234") && number.count == 13 {
             return nil
         }
         return TextFieldError.invalidNumber

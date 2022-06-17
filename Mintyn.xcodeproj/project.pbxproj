@@ -32,6 +32,7 @@
 		CAF9F24C285C735F00AB4874 /* TextFieldError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F24B285C735F00AB4874 /* TextFieldError.swift */; };
 		CAF9F24F285C73DE00AB4874 /* TextFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F24E285C73DE00AB4874 /* TextFieldValidator.swift */; };
 		CAF9F251285C74AE00AB4874 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F250285C74AE00AB4874 /* LoginService.swift */; };
+		CAF9F253285C7B3E00AB4874 /* AlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F252285C7B3E00AB4874 /* AlertHandler.swift */; };
 		EC2D94D72C3315C1C08B67B9 /* Pods_Mintyn_MintynUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7818BD6A6B4E19E8DE3A66C /* Pods_Mintyn_MintynUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		CAF9F24B285C735F00AB4874 /* TextFieldError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldError.swift; sourceTree = "<group>"; };
 		CAF9F24E285C73DE00AB4874 /* TextFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidator.swift; sourceTree = "<group>"; };
 		CAF9F250285C74AE00AB4874 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		CAF9F252285C7B3E00AB4874 /* AlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				CAF9F24E285C73DE00AB4874 /* TextFieldValidator.swift */,
+				CAF9F252285C7B3E00AB4874 /* AlertHandler.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 				CAF9F251285C74AE00AB4874 /* LoginService.swift in Sources */,
 				CAF2739D285B9CE200E20E4B /* SystemTableViewCell.swift in Sources */,
 				CAF2738C285B5A3200E20E4B /* HomeViewController.swift in Sources */,
+				CAF9F253285C7B3E00AB4874 /* AlertHandler.swift in Sources */,
 				CAF9F24F285C73DE00AB4874 /* TextFieldValidator.swift in Sources */,
 				CAF27395285B941800E20E4B /* LegalViewController.swift in Sources */,
 				CAF27390285B868B00E20E4B /* SettingsViewItem.swift in Sources */,
