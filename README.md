@@ -1,6 +1,6 @@
 # Mintyn
 
-This is the mock of the Mintyn mobile app. This was done in 36 hours and as such has quite some room for improvements. 
+This is the mock of the Mintyn mobile app.
 
 ## Getting Started
 This repository contain a clone of the Mintyn App on Apple's App Store. This project was done using Swift and UIKIt(Storyboards). You need to have XCode and Cocoapods installed to be able to run this project as it makes use of third party libraries. I have included links to help install these tools if you do not already have them installed
