@@ -36,7 +36,7 @@ git@github.com:BashirYesufu/Mintyn.git
 using Github CLI:
 
 ```
-gh repo clone BashirYesufu/Mintyn
+git@github.com:BashirYesufu/Mintyn.git
 ```
 
 **Step 2:**
@@ -49,8 +49,26 @@ pod install
 
 **Step 3:**
 
-Open the Minty.xcworkspace generated file using XCode
+Open the Minty.xcworkspace generate fil
 
 **Step 4:**
 
 Run your simulator for iOS or android emulator and smash the build button. Easy!
+
+## Screenshots of the app
+<table>
+ <tr>
+  <td>
+   <img align="center" alt="IMG" src="https://raw.githubusercontent.com/BashirYesufu/Mintyn/main/mintyn-demo/1.png" width="200" height="500" />
+  </td>
+  <td>
+    <img align="center" alt="IMG" src="https://raw.githubusercontent.com/BashirYesufu/Mintyn/main/mintyn-demo/2.png" width="200" height="500" />
+  </td>
+   <td>
+    <img align="center" alt="IMG" src="https://raw.githubusercontent.com/BashirYesufu/Mintyn/main/mintyn-demo/3.png" width="200" height="500" />
+  </td>
+   <td>
+    <img align="center" alt="IMG" src="https://raw.githubusercontent.com/BashirYesufu/Mintyn/main/mintyn-demo/4.png" width="200" height="500" />
+  </td>
+ </tr>
+</table>
