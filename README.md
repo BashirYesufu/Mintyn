@@ -19,16 +19,24 @@ https://cocoapods.org
 
 You must have XCode and Cocoapods Installed to build this project. Check the links above if you haven't done so.
 
-Download or clone this repo by using the link below using https:
+Download or clone this repo by using the link below 
+
+using https:
 
 ```
 https://github.com/BashirYesufu/Mintyn.git
 ```
 
-or using ssh:
+using ssh:
 
 ```
-https://github.com/BashirYesufu/Mintyn.git
+git@github.com:BashirYesufu/Mintyn.git
+```
+
+using Github CLI:
+
+```
+gh repo clone BashirYesufu/Mintyn
 ```
 
 **Step 2:**
@@ -41,7 +49,7 @@ pod install
 
 **Step 3:**
 
-Open the Minty.xcworkspace generate fil
+Open the Minty.xcworkspace generated file using XCode
 
 **Step 4:**
 
