@@ -1608,13 +1608,244 @@ Insurance</string>
                                     <constraint firstItem="1Ay-LF-OsE" firstAttribute="top" secondItem="2Sr-MB-5RL" secondAttribute="top" id="eWO-WB-gFU"/>
                                 </constraints>
                             </scrollView>
+                            <view hidden="YES" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oEv-mX-Y4j">
+                                <rect key="frame" x="0.0" y="81" width="414" height="1445"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rbm-B5-oC1">
+                                <rect key="frame" x="264" y="939" width="130" height="404"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="8Cl-X1-w4n">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1y3-sd-jKt">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqS-hQ-BUs" userLabel="Loan">
+                                                        <rect key="frame" x="6" y="15" width="38.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="CIj-O4-ZRy"/>
+                                                    <constraint firstItem="lqS-hQ-BUs" firstAttribute="centerY" secondItem="1y3-sd-jKt" secondAttribute="centerY" id="cmx-6m-7Ip"/>
+                                                    <constraint firstItem="lqS-hQ-BUs" firstAttribute="centerX" secondItem="1y3-sd-jKt" secondAttribute="centerX" id="tGD-B2-Ulo"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V8X-yn-uTE">
+                                                <rect key="frame" x="0.0" y="61" width="50" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fund Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fu1-YI-XAy" userLabel="Loan">
+                                                        <rect key="frame" x="-30" y="15" width="110.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="fu1-YI-XAy" firstAttribute="centerY" secondItem="V8X-yn-uTE" secondAttribute="centerY" id="27E-JT-z7U"/>
+                                                    <constraint firstAttribute="height" constant="50" id="asR-eJ-UPi"/>
+                                                    <constraint firstItem="fu1-YI-XAy" firstAttribute="centerX" secondItem="V8X-yn-uTE" secondAttribute="centerX" id="odQ-KD-7DM"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="56e-K8-LAU">
+                                                <rect key="frame" x="0.0" y="122" width="50" height="38"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transfer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgS-43-xDr" userLabel="Loan">
+                                                        <rect key="frame" x="-8" y="9" width="66.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="EgS-43-xDr" firstAttribute="centerY" secondItem="56e-K8-LAU" secondAttribute="centerY" id="Ybo-1V-G1r"/>
+                                                    <constraint firstItem="EgS-43-xDr" firstAttribute="centerX" secondItem="56e-K8-LAU" secondAttribute="centerX" id="zsX-C9-IEC"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wur-hh-wyi">
+                                                <rect key="frame" x="0.0" y="171" width="50" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3y-6b-XYI" userLabel="Loan">
+                                                        <rect key="frame" x="-2" y="15" width="54" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="K3y-6b-XYI" firstAttribute="centerY" secondItem="wur-hh-wyi" secondAttribute="centerY" id="140-at-aBH"/>
+                                                    <constraint firstItem="K3y-6b-XYI" firstAttribute="centerX" secondItem="wur-hh-wyi" secondAttribute="centerX" id="6GZ-vt-Luj"/>
+                                                    <constraint firstAttribute="height" constant="50" id="SlK-mM-RKy"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YYl-EA-rzr">
+                                                <rect key="frame" x="0.0" y="232" width="50" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save Money" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u32-jA-TUx" userLabel="Loan">
+                                                        <rect key="frame" x="-23" y="15" width="96" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="u32-jA-TUx" firstAttribute="centerX" secondItem="YYl-EA-rzr" secondAttribute="centerX" id="COP-2r-bDJ"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Q4F-dH-cK5"/>
+                                                    <constraint firstItem="u32-jA-TUx" firstAttribute="centerY" secondItem="YYl-EA-rzr" secondAttribute="centerY" id="gxf-mA-9Eo"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wSf-aP-Nwi">
+                                                <rect key="frame" x="0.0" y="293" width="50" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJO-xx-B2P" userLabel="Loan">
+                                                        <rect key="frame" x="-46" y="15" width="142" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="4FW-6c-bIw"/>
+                                                    <constraint firstItem="hJO-xx-B2P" firstAttribute="centerY" secondItem="wSf-aP-Nwi" secondAttribute="centerY" id="SdW-rb-JkG"/>
+                                                    <constraint firstItem="hJO-xx-B2P" firstAttribute="centerX" secondItem="wSf-aP-Nwi" secondAttribute="centerX" id="rN7-2i-0Bi"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYv-L2-Iav">
+                                                <rect key="frame" x="0.0" y="354" width="50" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mintyn Invest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmQ-6S-8FE" userLabel="Loan">
+                                                        <rect key="frame" x="-28.5" y="15" width="107" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="OmQ-6S-8FE" firstAttribute="centerY" secondItem="fYv-L2-Iav" secondAttribute="centerY" id="Yeg-ag-oyy"/>
+                                                    <constraint firstAttribute="height" constant="50" id="bhm-kj-xM3"/>
+                                                    <constraint firstItem="OmQ-6S-8FE" firstAttribute="centerX" secondItem="fYv-L2-Iav" secondAttribute="centerX" id="vsa-jb-2Dx"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="r86-pf-3yl">
+                                        <rect key="frame" x="80" y="0.0" width="50" height="404"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="briefcase.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="B3G-zb-1By">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="48.5"/>
+                                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="6gL-j2-4by"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Bcy-bM-jNv"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="K0I-nr-0TQ"/>
+                                                    <constraint firstAttribute="width" constant="50" id="QR6-fR-t5o"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="yDE-fa-HID">
+                                                <rect key="frame" x="0.0" y="59.5" width="50" height="49"/>
+                                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="DX1-Ar-Hne"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="bUO-fc-3Rx"/>
+                                                    <constraint firstAttribute="width" constant="50" id="cRT-HP-1KQ"/>
+                                                    <constraint firstAttribute="height" constant="50" id="fCa-LB-xzD"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="building.columns.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aPH-x7-RIZ">
+                                                <rect key="frame" x="0.0" y="118" width="50" height="49.5"/>
+                                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="DkD-hc-aeR"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="GeD-rO-Qkt"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="bMQ-ne-SVr"/>
+                                                    <constraint firstAttribute="width" constant="50" id="cVU-BA-A0I"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone.badge.play" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ytk-uc-ytb">
+                                                <rect key="frame" x="0.0" y="177" width="50.5" height="51"/>
+                                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="0fb-U1-ZWH"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Gxz-3U-WBH"/>
+                                                    <constraint firstAttribute="width" constant="50" id="SP2-md-QkP"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Y1l-QM-eVO"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IE8-cj-P5i">
+                                                <rect key="frame" x="0.0" y="236.5" width="50" height="49"/>
+                                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="0P6-QA-LpL"/>
+                                                    <constraint firstAttribute="height" constant="50" id="E7X-oO-aqV"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="l9W-KU-ZXc"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="wgD-ch-Vox"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="briefcase.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="uuX-A1-3YU">
+                                                <rect key="frame" x="0.0" y="295" width="50" height="48.5"/>
+                                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Inb-Fv-fiZ"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="hPu-eP-nha"/>
+                                                    <constraint firstAttribute="height" constant="50" id="tuo-cz-ks8"/>
+                                                    <constraint firstAttribute="width" constant="50" id="wl4-CP-0e8"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chart.line.uptrend.xyaxis" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="boo-9x-zf9">
+                                                <rect key="frame" x="0.0" y="355.5" width="50" height="47.5"/>
+                                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="SkD-Cd-00C"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="c11-za-fdU"/>
+                                                    <constraint firstAttribute="height" constant="50" id="ohl-Ax-aBF"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="xN1-Me-Ea3"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="9nY-GU-PiR"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="p3g-Fz-bir">
+                                <rect key="frame" x="344" y="1373.5" width="50" height="49"/>
+                                <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bQ3-bZ-aaS"/>
+                                    <constraint firstAttribute="width" constant="50" id="goX-lo-w0q"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mNj-g0-il4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="1Ay-LF-OsE" firstAttribute="width" secondItem="94H-R6-eUh" secondAttribute="width" id="1Pz-pZ-Ygh"/>
+                            <constraint firstItem="mNj-g0-il4" firstAttribute="trailing" secondItem="p3g-Fz-bir" secondAttribute="trailing" constant="20" id="4cD-Q5-jbA"/>
                             <constraint firstItem="2Sr-MB-5RL" firstAttribute="leading" secondItem="mNj-g0-il4" secondAttribute="leading" id="8pk-FJ-74f"/>
                             <constraint firstAttribute="bottom" secondItem="2Sr-MB-5RL" secondAttribute="bottom" id="BAP-HU-wcX"/>
+                            <constraint firstItem="mNj-g0-il4" firstAttribute="bottom" secondItem="p3g-Fz-bir" secondAttribute="bottom" constant="20" id="GDH-ey-f7n"/>
+                            <constraint firstItem="mNj-g0-il4" firstAttribute="trailing" secondItem="rbm-B5-oC1" secondAttribute="trailing" constant="20" id="HPa-wS-cFc"/>
+                            <constraint firstItem="p3g-Fz-bir" firstAttribute="top" secondItem="rbm-B5-oC1" secondAttribute="bottom" constant="30" id="dgB-6I-7ZP"/>
                             <constraint firstItem="2Sr-MB-5RL" firstAttribute="top" secondItem="mNj-g0-il4" secondAttribute="top" id="oR9-df-eTd"/>
                             <constraint firstItem="2Sr-MB-5RL" firstAttribute="trailing" secondItem="mNj-g0-il4" secondAttribute="trailing" id="x3C-vX-g2F"/>
                         </constraints>
@@ -1696,6 +1927,9 @@ Insurance</string>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CJY-6g-sAP">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="CKi-x7-xAP" kind="relationship" relationship="rootViewController" id="cbV-9s-K5U"/>
                     </connections>
@@ -1737,6 +1971,7 @@ Insurance</string>
         <image name="building.columns.fill" catalog="system" width="128" height="113"/>
         <image name="chart.bar" catalog="system" width="128" height="90"/>
         <image name="chart.bar.xaxis" catalog="system" width="128" height="98"/>
+        <image name="chart.line.uptrend.xyaxis" catalog="system" width="128" height="101"/>
         <image name="chart.xyaxis.line" catalog="system" width="128" height="101"/>
         <image name="checkmark.square" catalog="system" width="128" height="114"/>
         <image name="chevron.right" catalog="system" width="96" height="128"/>
@@ -1751,6 +1986,7 @@ Insurance</string>
         <image name="iphone.badge.play" catalog="system" width="106" height="128"/>
         <image name="mintyn-image" width="1000" height="1000"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <image name="scroll.fill" catalog="system" width="128" height="116"/>
         <image name="shield.checkerboard" catalog="system" width="128" height="121"/>
         <namedColor name="black-gold">
