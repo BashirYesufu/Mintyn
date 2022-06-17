@@ -1827,7 +1827,7 @@ Insurance</string>
                                     <constraint firstAttribute="width" constant="130" id="9nY-GU-PiR"/>
                                 </constraints>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="p3g-Fz-bir">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="p3g-Fz-bir">
                                 <rect key="frame" x="344" y="1373.5" width="50" height="49"/>
                                 <color key="tintColor" red="0.51372549020000002" green="0.36078431370000003" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -1887,6 +1887,11 @@ Insurance</string>
                         </barButtonItem>
                     </navigationItem>
                     <size key="freeformSize" width="414" height="1526"/>
+                    <connections>
+                        <outlet property="floatingActionView" destination="p3g-Fz-bir" id="B1i-MQ-hPX"/>
+                        <outlet property="optionsView" destination="rbm-B5-oC1" id="uNP-KM-kzI"/>
+                        <outlet property="transparentBackground" destination="oEv-mX-Y4j" id="GCB-Q0-d7d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImC-Bn-kKq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
