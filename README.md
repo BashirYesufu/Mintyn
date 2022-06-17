@@ -19,10 +19,16 @@ https://cocoapods.org
 
 You must have XCode and Cocoapods Installed to build this project. Check the links above if you haven't done so.
 
-Download or clone this repo by using the link below:
+Download or clone this repo by using the link below using https:
 
 ```
-https://github.com/.git
+https://github.com/BashirYesufu/Mintyn.git
+```
+
+or using ssh:
+
+```
+https://github.com/BashirYesufu/Mintyn.git
 ```
 
 **Step 2:**
