@@ -34,6 +34,7 @@
 		CAF9F251285C74AE00AB4874 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F250285C74AE00AB4874 /* LoginService.swift */; };
 		CAF9F253285C7B3E00AB4874 /* AlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F252285C7B3E00AB4874 /* AlertHandler.swift */; };
 		CAF9F256285C93E200AB4874 /* LoginServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F255285C93E200AB4874 /* LoginServiceTest.swift */; };
+		CAF9F259285C982800AB4874 /* TextFieldValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F258285C982800AB4874 /* TextFieldValidatorTests.swift */; };
 		EC2D94D72C3315C1C08B67B9 /* Pods_Mintyn_MintynUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7818BD6A6B4E19E8DE3A66C /* Pods_Mintyn_MintynUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,7 @@
 		CAF9F250285C74AE00AB4874 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		CAF9F252285C7B3E00AB4874 /* AlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandler.swift; sourceTree = "<group>"; };
 		CAF9F255285C93E200AB4874 /* LoginServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceTest.swift; sourceTree = "<group>"; };
+		CAF9F258285C982800AB4874 /* TextFieldValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 		CAF27366285A934500E20E4B /* MintynTests */ = {
 			isa = PBXGroup;
 			children = (
+				CAF9F257285C980800AB4874 /* UnitTests */,
 				CAF9F254285C93C700AB4874 /* ServiceTests */,
 				CAF27367285A934500E20E4B /* MintynTests.swift */,
 			);
@@ -310,6 +313,14 @@
 				CAF9F255285C93E200AB4874 /* LoginServiceTest.swift */,
 			);
 			path = ServiceTests;
+			sourceTree = "<group>";
+		};
+		CAF9F257285C980800AB4874 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9F258285C982800AB4874 /* TextFieldValidatorTests.swift */,
+			);
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -577,6 +588,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAF27368285A934500E20E4B /* MintynTests.swift in Sources */,
+				CAF9F259285C982800AB4874 /* TextFieldValidatorTests.swift in Sources */,
 				CAF9F256285C93E200AB4874 /* LoginServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
