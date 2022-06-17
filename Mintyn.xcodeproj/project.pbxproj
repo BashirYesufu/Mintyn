@@ -29,6 +29,9 @@
 		CAF27397285B943100E20E4B /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27396285B943100E20E4B /* SystemViewController.swift */; };
 		CAF27399285B98D600E20E4B /* AppearanceMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27398285B98D600E20E4B /* AppearanceMode.swift */; };
 		CAF2739D285B9CE200E20E4B /* SystemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2739C285B9CE200E20E4B /* SystemTableViewCell.swift */; };
+		CAF9F24C285C735F00AB4874 /* TextFieldError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F24B285C735F00AB4874 /* TextFieldError.swift */; };
+		CAF9F24F285C73DE00AB4874 /* TextFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F24E285C73DE00AB4874 /* TextFieldValidator.swift */; };
+		CAF9F251285C74AE00AB4874 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9F250285C74AE00AB4874 /* LoginService.swift */; };
 		EC2D94D72C3315C1C08B67B9 /* Pods_Mintyn_MintynUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7818BD6A6B4E19E8DE3A66C /* Pods_Mintyn_MintynUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +86,9 @@
 		CAF27396285B943100E20E4B /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
 		CAF27398285B98D600E20E4B /* AppearanceMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceMode.swift; sourceTree = "<group>"; };
 		CAF2739C285B9CE200E20E4B /* SystemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTableViewCell.swift; sourceTree = "<group>"; };
+		CAF9F24B285C735F00AB4874 /* TextFieldError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldError.swift; sourceTree = "<group>"; };
+		CAF9F24E285C73DE00AB4874 /* TextFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidator.swift; sourceTree = "<group>"; };
+		CAF9F250285C74AE00AB4874 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +201,7 @@
 				CAF2738F285B868A00E20E4B /* SettingsViewItem.swift */,
 				CAF27398285B98D600E20E4B /* AppearanceMode.swift */,
 				CA7F9C14285BA52900F57550 /* LegalViewModel.swift */,
+				CAF9F24B285C735F00AB4874 /* TextFieldError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 		CAF27389285B4D4D00E20E4B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CAF9F24D285C73B100AB4874 /* Helper */,
 				CAF27386285A9E3D00E20E4B /* Extension */,
 				CAF2738A285B4D6C00E20E4B /* Services */,
 			);
@@ -267,6 +275,7 @@
 		CAF2738A285B4D6C00E20E4B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				CAF9F250285C74AE00AB4874 /* LoginService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -279,6 +288,14 @@
 				CA7F9C16285BA77100F57550 /* LegalTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		CAF9F24D285C73B100AB4874 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9F24E285C73DE00AB4874 /* TextFieldValidator.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -520,11 +537,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF9F251285C74AE00AB4874 /* LoginService.swift in Sources */,
 				CAF2739D285B9CE200E20E4B /* SystemTableViewCell.swift in Sources */,
 				CAF2738C285B5A3200E20E4B /* HomeViewController.swift in Sources */,
+				CAF9F24F285C73DE00AB4874 /* TextFieldValidator.swift in Sources */,
 				CAF27395285B941800E20E4B /* LegalViewController.swift in Sources */,
 				CAF27390285B868B00E20E4B /* SettingsViewItem.swift in Sources */,
 				CAF27393285B892500E20E4B /* SettingsTableViewCell.swift in Sources */,
+				CAF9F24C285C735F00AB4874 /* TextFieldError.swift in Sources */,
 				CA7F9C17285BA77100F57550 /* LegalTableViewCell.swift in Sources */,
 				CAF27355285A934300E20E4B /* LoginViewController.swift in Sources */,
 				CAF27351285A934300E20E4B /* AppDelegate.swift in Sources */,

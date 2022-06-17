@@ -51,6 +51,32 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginTapped(_ sender: UIButton) {
+        guard let number = numberTF.text, let password = passwordTF.text else { return }
+        if TextFieldValidator.validateNumber(number) != nil {
+            //show invalid number error
+            return
+        }
+        
+        if TextFieldValidator.validatePassword(password) != nil {
+            //show invalid password error
+            return
+        }
+        login(number, password)
+    }
+    
+    private func login(_ number: String, _ password: String){
+        // Show Loader
+        LoginService.shared.loginUser(number: number, password: password) { [weak self] loggedIn in
+            if loggedIn {
+                self?.goHome()
+                // Dismis loader
+            } else {
+                // Show error
+            }
+        }
+    }
+    
+    private func goHome(){
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let mintynTabBarController = storyboard.instantiateViewController(identifier: "MintynTabBarController")
         (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.goTo(mintynTabBarController)
