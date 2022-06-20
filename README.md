@@ -49,11 +49,11 @@ pod install
 
 **Step 3:**
 
-Open the Minty.xcworkspace generate fil
+Open the Minty.xcworkspace generated file
 
 **Step 4:**
 
-Run your simulator for iOS or android emulator and smash the build button. Easy!
+Run your simulator for iOS and smash the build button. Easy!
 
 ## Screenshots of the app
 <table>
